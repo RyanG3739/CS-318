@@ -1,0 +1,28 @@
+body{
+    background-image: url(images/Golfgreen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+:link{
+    background-color: white;
+}
+:hover{
+    color: black;
+}
+:active{
+    color: gray;
+}
+:visited{
+    color: black;
+}
+header>nav{
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 0rem;
+    padding-right: 0rem;
+}
+header>nav>a{
+    border: 5px solid transparent;
+    display: inline-block;
+}
