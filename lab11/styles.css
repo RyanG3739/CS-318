@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 28px;
+}
+header>h1{
+    display: none;
+}
+header>img{
+    width: 400px;
+}
+section>img{
+    width: 800px;
+    border: 10px solid black;
+}
+.ourstory p{
+    width: 800px;
+    font-size: 28px;
+    border: 10px solid black;
+    height: 300px
+}
+section{
+    justify-content: space-around;
+}
+.ourstory, .drinks{
+    display: flex;
+}
+.menu{
+    font-size: 20px;
+    border: 10px solid black;
+    width: 800px;
+    height: 1100px;
+    margin:auto;
+}
+.drinks{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.drinks img{
+    width: 800px;
+}
+.contact{
+    align-items: flex-end;
+}
+.drinks div{
+    font-size: 20px;
+    border: 10px solid black;
+    width: 800px;
+    height: 900px;
+}
