@@ -30,7 +30,7 @@ tbody th:hover{
     background-color: #022502;
 }
 td,th{
-    vertical-align: text-top;
+    vertical-align: text-top;/*Just top not text-top*/
 }
 td{
     border: 1px solid #023502;
