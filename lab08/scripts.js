@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		document.querySelector('.sloth span').classList.toggle('rotate');
 	});
 });
-//Elephant Section
+//Elephant section
 document.addEventListener("DOMContentLoaded", function(){
 	document.querySelector('.elephant>.accordion').addEventListener('click', function(){
 		document.querySelector('.elephant>article').classList.toggle('show');
