@@ -1,0 +1,68 @@
+
+header{
+    background-color: #00ffff;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 25pt;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    background-color: #0fb900;
+    padding: 0 20px;
+    margin: auto;
+}
+header>img{
+    position: absolute;
+    top: 10px;
+    max-width: 500px;
+}
+
+h3{
+    background-color: #d0ffb9;
+}
+
+h2:hover,
+h2:hover,
+h3:hover{
+    color: #a20036;
+}
+
+nav{
+    background-color: #00ffff;
+}
+
+@media (max-width: 500px) {
+    header{
+        font-size: 36pt;
+    }
+    h2{
+        background-color: #0fb900;
+        font-size: 36pt;
+        padding: 0 10px;
+        margin: auto;
+    }
+    .logo{
+        width: 30px; 
+        top: 5px;
+    }
+    .logo.left{
+        left: 5px;
+    }
+    .logo.right{
+        right: 5px;
+    }
+    h3{
+        background-color: #d0ffb9;
+        font-size: 18pt;
+    }
+    nav{
+        background-color: #00ffff;
+    }
+    h1:hover,
+    h2:hover,
+    h3:hover{
+        color: #a20036;
+    }
+}
