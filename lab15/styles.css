@@ -62,6 +62,7 @@ h1{
     width: 4rem;
     margin:.25rem;
   }
+  /*Delete the period in front of section*/
   .section.headline{
     background-image: url(images/cafe.png);
     background-size: cover;
@@ -128,9 +129,11 @@ h1{
     font-size: 3rem;
     font-family: 'Bebas Neue', sans-serif;
     color: #fff;
+    /*should be rgba(0,0,0,.6). You have an extra zero are a missing period*/
     text-shadow: 2px 2px 2px rgba(0,0,0,0,6);
     cursor: pointer;
     z-index: 1;
+    /*Need a space on both sides of the minus sign*/
     top: calc(50%-1.5rem);
 }
 .left{
@@ -141,6 +144,7 @@ h1{
 }
 .gallery img{
     max-width: 100.025vw;
+    /*Need a space on both sides of the slash*/
     height: calc(100.25vw/1.778);
 }
 td, th{
@@ -244,11 +248,14 @@ form{
 dialog p{
     margin: 0;
 }
+/*Missing @media (min-width:1000px){*/
 .gallery img{
     max-width: 50vw;
-    height: calc(vw/1.778);
+    /*Need a space on both sides of the slash*/
+    height: calc(50vw/1.778);
 }
 .gallery{
+  /*Need a space on both sides of the slash*/
     height: calc(50vw/1.778);
 }
 .about{
@@ -269,3 +276,4 @@ dialog p{
     max-width: 50rem;
     margin: 1rem auto;
   }
+  /*Missing }*/
