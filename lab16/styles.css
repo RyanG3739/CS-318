@@ -97,19 +97,19 @@ header a:hover{
     animation-delay: 0s;
     animation-iteration-count: infinite; 
     animation-direction: alternate;
-    /*Missing animation-name:move;*/
+    animation-name:move;
 
 }
-/*Missing
+
 @keyframes move{
     to{
-        Need your starting property for the rover's initial position in the animation.
+        transform: translateX(0);
     }
     from{
-        Need your ending property for the rover's final postion in the animation.
+        transform: translate(900px);
     }
 }
-*/
+
 .rover:hover{
     animation-play-state: paused;
 }
@@ -159,8 +159,7 @@ iframe{
     gap: 2rem;
 }
 figcaption, h3{
-    /*transition not transform on next line*/
-    transform:color .2 ease-in-out;
+    transition:color .2 ease-in-out;
 }
 .figcaption:hover, h3:hover{
     color: #d15f44;
