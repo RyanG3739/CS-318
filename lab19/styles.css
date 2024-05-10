@@ -57,6 +57,7 @@ header nav{
     top: 4.75rem;
     position: fixed;
     background-color: #0b132b65;
+    /* should be 0.5s on next line*/
     transition: left 0.5 ease-in-out;
     left: -100%;
 }
@@ -188,16 +189,20 @@ header nav a:hover{
     text-decoration: underline;
 }
 .social{
+    /*padding-right:2rem;*/
     padding: right 2rem;
 }
 h1{
+    /*margin-left:-16rem;*/
     margin: left -16rem;
 }
 .call-to-action{
+    /*Need a space on both sides of the minus sign*/
     padding: 20rem calc((100%-900px)/2) 5rem;
 }
 .call-to-action h2{
     font-size: 5rem;
+    /*margin-bottom:1rem; on next line*/
     margin: bottom 1rem;
 }
 p, h3{
@@ -216,6 +221,7 @@ p, h3{
     margin: 0.5rem;
     padding: 0;
 }
+/*gallery spelled wrong on next line*/
 .gllery .panorama{
     width: 100%;
 }
@@ -230,6 +236,7 @@ p, h3{
     grid-gap: 1rem;
 }
 .routes h3{
+    /*grid-area:1/1/2/4; */
     grid-area: 1/1/2/2;
 }
 form{
